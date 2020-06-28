@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "interactive": "./node_modules/.bin/cypress open",
-    "cli": "cypress run cy:run -- --record --spec 'integration/kanban"
+    "cli": "cypress run -- --spec integration/kanban"
   },
   "repository": {
     "type": "git",

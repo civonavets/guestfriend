@@ -1,10 +1,18 @@
 /// <reference types="cypress" />
 const selector = require("../../fixtures/selectors")
 
-describe('Kanban tests', function () {
+describe('Form tests', function () {
     beforeEach(function () {
       cy.visit(selector.baseURI, {
       })
+    })
+    it('Checking if the Title is diplayed', ()=> {
+        cy.get(selector.title)
+        .should('contain', 'Kanban Board')
+    })
+    it('Checking if the searchbar is diplayed', ()=> {
+        cy.get(selector.searchbar)
+        .should('have.attr', 'placeholder', 'Search')
     })
     it('Checking if the "To Do" header is diplayed', ()=> {
         cy.get(selector.toDo)

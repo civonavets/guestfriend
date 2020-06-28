@@ -1,0 +1,26 @@
+{
+  "name": "guestfriend",
+  "version": "1.0.0",
+  "description": "UI test",
+  "main": "index.js",
+  "scripts": {
+    "interactive": "./node_modules/.bin/cypress open",
+    "cli": "cypress run cy:run -- --record --spec 'integration/kanban"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civonavets/guestfriend.git"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/civonavets/guestfriend/issues"
+  },
+  "homepage": "https://github.com/civonavets/guestfriend#readme",
+  "dependencies": {
+    "cypress": "^4.9.0"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.3.1"
+  }
+}

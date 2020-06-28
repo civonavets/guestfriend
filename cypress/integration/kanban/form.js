@@ -14,6 +14,7 @@ describe('Form tests', function () {
         cy.get(selector.searchbar)
         .should('have.attr', 'placeholder', 'Search')
     })
+    
     it('Checking if the "To Do" header is diplayed', ()=> {
         cy.get(selector.toDo)
         .should('contain', 'To Do')

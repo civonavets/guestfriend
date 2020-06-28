@@ -22,12 +22,6 @@ doneAddTicket: ':nth-child(3) > .sc-AxheI > [data-testid=add-ticket-button]',
 ticket: '[data-testid=ticket]',
 ticketTittle: '.sc-AxhCb',
 
-multTic1: ':nth-child(1) > .sc-fzoLsD > :nth-child(1) > [data-testid=ticket]',
-multTicNm2: ':nth-child(1) > .sc-fzoLsD > :nth-child(1) > [data-testid=ticket] > .sc-AxhCb',
-
-ads: ':nth-child(2) > .sc-fzoLsD > :nth-child(1) > [data-testid=ticket]',
-ads2: ':nth-child(2) > .sc-fzoLsD > :nth-child(1) > [data-testid=ticket] > .sc-AxhCb',
-
 deleteTicketButton: '[data-testid=delete-ticket-button]',
 
 
